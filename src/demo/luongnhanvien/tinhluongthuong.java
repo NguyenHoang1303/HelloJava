@@ -5,11 +5,11 @@ public class tinhluongthuong {
     int luong(float namKinhNghiem){
         int luong;
         if ( namKinhNghiem > 0 && namKinhNghiem < 1){
-            luong = 1000000;
+            luong = 10000000;
         } else if( namKinhNghiem >= 1 && namKinhNghiem <= 2){
-            luong = 2000000;
+            luong = 20000000;
         } else{
-            luong = 3000000;
+            luong = 30000000;
         }
         return luong;
     }
